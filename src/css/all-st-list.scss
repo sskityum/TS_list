@@ -1,0 +1,83 @@
+.admin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(206, 212, 233);
+    border-radius: 10px;
+    width: 90%;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .admin__table {
+        width: 90%;
+        border: 2px solid rgb(206, 212, 233);
+        border-radius: 5px;
+        margin-bottom: 10px;
+
+        .user_row {
+            display: flex;
+            justify-content: flex-start;
+            width: 98%;
+            height: 18px;
+            font-size: 13px;
+            padding: 6px 0 4px 10px;
+            border: 1px solid #cecece;
+            background: rgb(254, 254, 254) linear-gradient(#f4f4f4, #f1f1f1);
+            margin-bottom: 2px;
+            margin-left: auto;
+            margin-right: auto;
+
+            span {
+                display: block;
+                min-width: 130px;
+            }
+        }
+
+    }
+
+    .admin__form {
+        width: 60%;
+
+        div {
+            text-align: center;
+        }
+
+        input{
+            width: 98%;
+            height: 18px;
+            font-size: 13px;
+            padding: 6px 0 4px 10px;
+            border: 1px solid #cecece;
+            background: rgb(254, 254, 254) linear-gradient(#f4f4f4, #f1f1f1);
+            margin-bottom: 2px;
+            // border-radius: 8px;
+        }
+
+        input[type="button"]{
+            width: 60%;
+            height: 30px;
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: .5em 2em;
+            outline: none;
+            border-width: 2px 0;
+            border-style: solid none;
+            border-color: rgba(253, 189, 51, 0.603) #000 #D77206;
+            border-radius: 6px;
+            background: linear-gradient(#F3AE0F, #E38916) #E38916;
+            transition: 0.2s
+        }
+
+        input[type="button"]:hover{
+            background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+        }
+
+        input[type="button"]:active{
+            background: linear-gradient(#f59500, #f5ae00) #f59500;
+        } 
+    }
+
+}
